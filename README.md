@@ -81,10 +81,10 @@ sales-overview-dashboard/
 │   ├── DIM_Calendar.csv
 │   ├── FACT_InternetSales.csv
 │   └── SalesBudget.xlsx
-└── docs/
-    ├── business-request.md      # Original business request
-    ├── user-stories.md          # User stories & acceptance criteria
-    └── screenshots/             # Dashboard and process screenshots
+├── docs/
+│   ├── business-request.md      # Original business request
+│   ├── user-stories.md          # User stories & acceptance criteria
+└── screenshots/                 # Dashboard and process screenshots
 ```
 
 ## Notes
