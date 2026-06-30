@@ -29,7 +29,7 @@ Each table was queried directly in SQL Server Management Studio to select, renam
 
 **Sample query — `DIM_Products`:**
 
-![DIM_Products SQL query](docs/screenshots/dim-products-query.png)
+![DIM_Products SQL query](screenshots/dim-products-query.png)
 
 All queries used to build the model are in [`sql/`](sql/), and the cleaned CSV/XLSX extracts loaded into Power BI are in [`data/`](data/).
 
@@ -40,7 +40,7 @@ The Power BI model follows a star schema:
 - **Fact_InternetSales** (from SQL) and **Fact_Budget** (from `SalesBudget.xlsx`, monthly 2025 budget figures) as fact tables
 - **DIM_Customers**, **DIM_Products**, **DIM_Calendar** as dimension tables, each joined on their respective keys
 
-This keeps the model lean and filter performance fast, and lets the report filters (Customer City, Sub Category, Product Category, Product Name) drive every visual consistently.
+This keeps the model lean and filter performance fast, and lets the report filters (Customer City, Sub Category, Product Category, Product Name) consistently drive every visual.
 
 ## Dashboard
 
@@ -56,7 +56,7 @@ The final report is a single-page **Sales Overview** in Power BI:
 | Sales by Customer City | Geographic map of where sales are coming from |
 | Filters | Year, Month, Customer City, Sub Category, Product Category, Product Name |
 
-This directly answers the user stories: Sales Managers get the budget-vs-actual overview and trend, while Sales Representatives can filter down to a single customer or product to follow their own book of business.
+This directly answers the user stories: Sales Managers get the budget-vs-actual overview and trend. At the same time, Sales Representatives can filter down to a single customer or product to follow their own book of business.
 
 ## Tools Used
 
