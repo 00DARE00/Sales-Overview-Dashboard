@@ -2,11 +2,11 @@
 
 An end-to-end data analyst project: a business request was translated into user stories, a SQL Server data warehouse (AdventureWorksDW2025) was queried and cleaned, and a Power BI dashboard was built to give Sales the visual reporting it asked for.
 
-![Sales Overview Dashboard](docs/screenshots/dashboard-overview.png)
+![Sales Overview Dashboard](screenshots/dashboard-overview.png)
 
 ## Project Background
 
-The Sales Manager (Steven) reached out asking to move away from static sales reports and into visual dashboards. The full request is documented in [`docs/business-request.md`](docs/business-request.md), but in short, the team wanted to see:
+The Sales Manager (Steven) reached out, asking to move away from static sales reports and into visual dashboards. The full request is documented in [`docs/Business-Request-(Mail-from-Steven).docx`](docs/Business-Request-(Mail-from-Steven).docx), but in short, the team wanted to see:
 
 - How much has been sold, of what products, to which clients, over time
 - The ability to filter by salesperson, customer, and product
@@ -14,7 +14,7 @@ The Sales Manager (Steven) reached out asking to move away from static sales rep
 
 ## From Request to User Stories
 
-The request was broken down into four user stories covering both the Sales Manager's and Sales Representatives' needs (overview KPIs vs. budget, and drill-down views by customer and by product). The full set of user stories with acceptance criteria is in [`docs/user-stories.md`](docs/user-stories.md).
+The request was broken down into four user stories covering both the Sales Manager's and Sales Representatives' needs (overview KPIs vs. budget, and drill-down views by customer and by product). The full set of user stories with acceptance criteria is in [`docs/Business-Demand-Overview-&-User-Stories.docx`](docs/Business-Demand-Overview-&-User-Stories.docx).
 
 ## Data Source
 
@@ -61,7 +61,7 @@ This directly answers the user stories: Sales Managers get the budget-vs-actual 
 ## Tools Used
 
 - **SQL Server Management Studio** — querying and shaping the AdventureWorksDW2025 source data
-- **Power BI Desktop** — data modeling (star schema) and dashboard design
+- **Power BI Desktop** — data modelling (star schema) and dashboard design
 - **Power Query / DAX** — transformations and measures (e.g. Sales vs Budget variance)
 
 ## Repository Contents
